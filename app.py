@@ -58,7 +58,7 @@ def predictPage():
             return render_template('predict.html')
 
     except Exception as e:
-        message = e
+        message = "Please enter valid data."
         return render_template("home.html", message = message)
 
    
