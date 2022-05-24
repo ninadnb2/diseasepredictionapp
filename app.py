@@ -53,11 +53,15 @@ def predictPage():
             to_predict_dict = request.form.to_dict()
             to_predict_list = list(map(float, list(to_predict_dict.values())))
             pred = predict(to_predict_list, to_predict_dict)
+            return render_template('predict.html', pred = pred)
+        else:
+            return render_template('predict.html')
+
     except:
         message = "Please enter valid Data"
         return render_template("home.html", message = message)
 
-    return render_template('predict.html', pred = pred)
+   
 
 
 
