@@ -1,0 +1,89 @@
+{% extends 'main.html' %}
+{% block content %}
+{% if message %}
+        <div class="alert alert-danger">{{ message }}</div>
+    {% endif %}
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;background-color:rgb(213, 220, 195);">
+        <h2>A online health care solution to provide clinical results at go.</h2>
+        <p>In the current time of pandemic people prefer to be home treated and to ensure they avoid contaminated places such as hospitals and clinics as much as possible.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        <ul>
+            <li>Diabetes Model: <strong>98.25%</strong></li>
+            <li>Heart Disease Model: <strong>98.54%</strong></li>
+            <li>Kidney Disease Model: <strong>97.90%</strong></li>
+            <li>Liver Disease Model: <strong>99%</strong></li>
+        </ul>
+        <br>
+        <h3>Information about the Diseases which this webApp can predict.</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Diabetes</h4>
+                <p>Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy. Sometimes your body doesn’t make enough—or any—insulin or doesn’t use insulin well. Glucose then stays in your blood and doesn’t reach your cells.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Urinating often.</li>
+                    <li>Feeling very thirsty.</li>
+                    <li>Extreme fatigue.</li>
+                    <li>Blurry vision.</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Chronic kidney disease</h4>
+                <p>Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function. Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. When chronic kidney disease reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can build up in your body.</p>
+                <h5>Symptoms</h5>
+                <ul>
+                    <li>Nausea</li>
+                    <li>Vomiting</li>
+                    <li>Fatigue and weakness</li>
+                    <li>Muscle twitches and cramps</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Liver disease</h4>
+                <p>Liver disease can be inherited (genetic). Liver problems can also be caused by a variety of factors that damage the liver, such as viruses, alcohol use and obesity. Over time, conditions that damage the liver can lead to scarring (cirrhosis), which can lead to liver failure, a life-threatening condition. But early treatment may give the liver time to heal.</p>
+                <h5>Symptoms</h5>
+                <ul>
+
+                    <li>Skin and eyes that appear yellowish (jaundice).</li>
+                    <li>Abdominal pain and swelling.</li>
+                    <li>Dark urine color. </li>
+                    <li>Tendency to bruise easily.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4>Heart Disease</h4>
+                <p>The term “heart disease” refers to several types of heart conditions. The most common type of heart disease in the United States is coronary artery disease (CAD), which affects the blood flow to the heart. Decreased blood flow can cause a heart attack.</p>
+                <h5>Symptoms</h5>
+                <ul>
+
+                    <li>Heart attack: Chest pain or discomfort, upper back or neck pain, indigestion, heartburn, nausea or vomiting, extreme fatigue, upper body discomfort, dizziness, and shortness of breath.</li>
+                    <li>Feeling very thirsty.</li>
+                    <li>Arrhythmia: Fluttering feelings in the chest </li>
+                    <li>Heart failure: Shortness of breath, fatigue, or swelling of the feet, ankles, legs, abdomen, or neck veins.</li>
+                </ul>
+            </div>
+        </div>
+
+        <br>
+        
+
+    </div>
+</div>
+{% endblock %}
