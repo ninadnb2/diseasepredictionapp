@@ -15,3 +15,10 @@ Diabetes | Machine Learning Model | 98.25%
 Heart Disease | Machine Learning Model | 98.54%
 Kidney Disease | Machine Learning Model | 97.90%
 Liver Disease | Machine Learning Model | 99%
+
+##Screenshots-
+![image](https://github.com/ninadnb2/diseasepredictionapp/assets/68941939/eebb96c4-de37-44c7-917e-baca083cbac2)
+
+![image](https://github.com/ninadnb2/diseasepredictionapp/assets/68941939/f3093996-8f3e-4aed-9741-4ff2eb4ba9ee)
+
+![image](https://github.com/ninadnb2/diseasepredictionapp/assets/68941939/959d736b-9fe8-4461-b45f-b495ad6b1535)
